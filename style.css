@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+}
+nav{
+    background-color: black;
+    padding: 15px;
+    color: white;
+    /* text-align: right; */
+    /* margin-right: 0%; */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+.sidebar{
+    background-color: aquamarine;
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    top: 49px;
+
+}
+.top{
+    display: flex;
+}
+.top_sidebar img{
+    border-radius: 200px;
+    width: 70px;
+    height: 70px;
+    margin: 15px
+}
+.top_content{
+    margin: 15px;
+}
+.top_content i{
+    padding: 10px;
+}
+.bottom i,h2,p{
+    margin: 8px;
+}
+
+.closemenu{
+    background-color: gray;
+}
+.overview{
+    background-color: rgb(66, 66, 210);
+}
+.bottom p:hover{
+    background-color: rgb(227, 216, 216);
+}
+
+.main{
+    position: absolute;
+    left: 300px;
+    top: 50px;
+}
+.main>p{
+    margin: 15px;
+    padding: 15px;
+}
+.dashboard{
+    margin: 15px;
+}
+.dashboard i{
+    margin: 10px;
+}
+.dashboard{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.messages{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    width: 250px;
+    height: 80px;
+}
+.views{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    width: 250px;
+    height: 80px;
+}
+.shares{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    width: 250px;
+    height: 80px;
+}
+.users{
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    width: 250px;
+    height: 80px;
+}
+
+.regions_feeds{
+    display: flex;
+}
+.regions{
+    width: 45%;
+}
+.feeds{
+    width: 45%;
+}
+
+
+.stats{
+    margin: 15px;
+}
+.stats h3{
+    margin: 15px;
+}
+.progress{
+    width: 80%px;
+    height: 25px;
+    background-color: grey;
+}
+.minimun1{
+    width: 25%;
+    height: 25px;
+    background-color: green;
+}
+.minimun2{
+    width: 50%;
+    height: 25px;
+    background-color: orange;
+}
+.minimun3{
+    width: 75%;
+    height: 25px;
+    background-color:red;
+}
+
+
+table,tr,td{
+    border-collapse: collapse;
+    padding: 10px 35px;
+}
+tr:nth-child(even){
+    background-color: #0404043d;
+}
+tr:nth-child(odd){
+    background-color: #cf7c7c3d;
+}
+table{
+    margin: 15px;
+    width: 90%;
+}
+ button{
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    margin: 15px;
+ }
+
+
+
+.recentcomments img,p,span{
+    margin: 15px;
+}
+.recentcomments img{
+    width: 80px;
+    border-radius: 40px;
+}
+.users_table{
+    margin: 15px;
+    width: 90%;
+    box-shadow: 2px 2px 10px;
+}
+.users_table tr,.users_table td{
+ border-bottom: 1px solid grey;
+ background-color: white;
+ margin: 15px;
+}
+.users_table i{
+    margin: 7px;
+}
+
+
+
+
+
+.section{
+    background-color: rgb(60, 58, 58);
+    padding: 15px;
+}
+.section h2,h5{
+    margin: 15px;
+}
+.green{
+    height: 5px;
+    background-color: green;
+    border: none;
+    width: 90%;
+}
+.red{
+    height: 5px;
+    background-color: red;
+    border: none;
+    width: 90%;
+}
+.orange{
+    height: 5px;
+    background-color: orange;
+    border: none;
+    width: 90%;
+}
+
+
+footer{
+    background-color: gray;
+    padding: 15px;
+}
+footer h3{
+    padding: 25px;
+}
+
+button:hover{
+    background-color: bisque;
+    color: black;
+    transform: scale(1.15,1.15);
+}
